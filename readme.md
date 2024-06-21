@@ -13,7 +13,7 @@
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  This is consist of a landing page, 5 static and animated card styles, and 5 static hero styles.
+  This is consists of a landing page, 5 static and animated card styles, and 5 static hero styles.
 </div>
 
 <br />
@@ -61,22 +61,29 @@ Description of the project in details.
 
 Guiding Question:
 - What is the project
+<br>
+The project is about creating a hero and card styles using HTML and CSS. <br>
 - Whats the purpose
+<br>
+The hero style is the initial element that catches the eye on your website, adding visual appeal to the page. On the other hand, card styles effectively present content in a compact, organized format, facilitating easy navigation for the user. <br>
 - What are key components
+<br>
+Hero sections usually feature a striking image, video, or graphic, accompanied by attention-grabbing text and a call to action. In contrast, a card includes a title, an image, a description or other content, and an attribution or footer. <br>
 - What technology used and how it is used
+<br>
+HTML and CSS <br>
 
 ### Key Components
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
-- MultiPage Website/Single Page Website
-- Parallax transition
-- Transactional
+- Landing Page
+- 5 Static and animated card style
+- 5 Static hero style
 
 ### Technology
 <!-- TODO: List of Technology Used -->
 ![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white)
 
 ## Rules, Practices and Principles
 1. Always use `WD-` in the front of the Title of the Project for the Subject followed by your custom naming.
