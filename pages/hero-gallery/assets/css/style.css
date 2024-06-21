@@ -1,0 +1,200 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.home {
+    position: relative;
+    right: 45%;
+    padding: 3px 0;
+    text-align: center;
+    margin: 10px 5px;
+    border-radius: 15px;
+    font-weight: bold;
+    border: 2px solid #000000;
+    background: transparent;
+    padding: .8rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.home a {
+    text-decoration: none;
+    color: black;
+}
+
+.header-title h1 {
+    font-size:2rem;
+    padding: .5rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    background: beige;
+    overflow-y: scroll;
+}
+
+section {
+    width: 100vw;
+    display: flex;
+    padding: 1rem 4.2vw;
+    text-align: flex-end;
+}
+
+/* DESIGN 1 */
+
+header.design-one {
+    display: flex;
+    justify-content: space-between;
+    width: 100rem;
+}
+
+.design-one {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    background: url(../../../../assets/img/red-porsche-911-in-empty-road-hs4v00msluevh3zt.jpg);
+    background-size: cover;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+}
+
+@font-face {
+    font-family: porsche-font;
+    src: url(../js/911porschav3.ttf);
+}
+
+.design-one h1 {
+    font-family: porsche-font;
+    position: relative;
+    text-align: center;
+    align-items: start;
+    display: flex;
+    justify-content: start;
+    top: 20%;
+    font-size: 100px;
+}
+
+.porsche-button a {
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    border: 2px solid #000000;
+    background: black;
+    color: #fff;
+    padding: .4rem 5rem;
+    text-decoration: none;
+    font-size: 1.1rem;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    bottom: 4rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* DESIGN 2 */
+
+.design-two {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    position: relative;
+}
+
+header.design-two {
+    display: flex;
+    justify-content: start;
+    width: 100rem;
+    background: rgb(126, 126, 62);
+}
+
+.coastline-pic {
+    position: relative;
+    left: 5px;
+    height: 99%;
+    top: 4px;
+    width: 95%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.design-two h1 {
+    font-size: 80px;
+    justify-content: center;
+    position: relative;
+    display: flex;
+    align-items: center;
+    bottom: 70%;
+    left: 45%;
+    color: white;
+    font-weight: normal;
+}
+
+.design-two p {
+    position: relative;
+    justify-content: center;
+    position: relative;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    bottom: 65%;
+    left: 60%;
+    color: white;
+}
+
+/* DESIGN 3 */
+
+header.design-three {
+    display: flex;
+    justify-content: space-between;
+    width: 100rem;
+}
+
+.design-three {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    background-image: linear-gradient(rgba(0,0,0,0.55),rgba(0,0,0,0.65)),url(../../../../assets/img/awe-inspiring-views-from-4k-mountain-9md6zlz1czbova8g.jpg);
+    background-size: cover;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    align-items: start;
+}
+
+.design-three h1 {
+    color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: relative;
+    top: 15%;
+    left: 3%;
+    font-weight: normal;
+    font-size: 90px;
+    letter-spacing: -3px;
+    line-height: 100%;
+}
+
+.design-three p {
+    color: white;
+    display: flex;
+    position: relative;
+    bottom: 20%;
+    left: 4%;
+    justify-content: start;
+    text-align: justify;
+
+}

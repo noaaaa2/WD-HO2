@@ -29,9 +29,49 @@ h3.subtitle {
     color: black;
 }
 
-p.description {
+.description {
     font: 1.3rem;
     margin-bottom: 2.5rem;
     color: black;
     text-align: center;
+}
+
+a {
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #000000;
+    background: transparent;
+    color: #fff;
+    padding: .8rem;
+    text-decoration: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+
+}
+
+span {
+    background:#000000;
+    height: 100%;
+    width: 0;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5;
+
+}
+
+a:hover span {
+    width: 100%;
+}
+
+a:hover {
+    background-color: #000000;
+    border: none    ;
 }
