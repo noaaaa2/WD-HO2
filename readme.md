@@ -60,13 +60,13 @@
 Description of the project in details.
 
 Guiding Question:
-- What is the project
+- What is the project<br>
 The project is about creating a hero and card styles using HTML and CSS. <br>
-- Whats the purpose
+- Whats the purpose<br>
 The hero style is the initial element that catches the eye on your website, adding visual appeal to the page. On the other hand, card styles effectively present content in a compact, organized format, facilitating easy navigation for the user. <br>
-- What are key components
+- What are key components<br>
 Hero sections usually feature a striking image, video, or graphic, accompanied by attention-grabbing text and a call to action. In contrast, a card includes a title, an image, a description or other content, and an attribution or footer. <br>
-- What technology used and how it is used
+- What technology used and how it is used<br>
 HTML and CSS <br>
 
 ### Key Components
