@@ -120,4 +120,5 @@ WD-ProjectName
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+| Samsung buds | Hero | https://i.pinimg.com/564x/10/26/d9/1026d94e6e0c5503e6534994c748a262.jpg |
+| Yogurt | Hero | https://www.uidux.com/hero-section-71-for-figma-and-adobe-xd |
