@@ -1,0 +1,327 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.home {
+    position: relative;
+    padding: 3px ;
+    right: 48%;
+    margin: 10px 5px;
+    border-radius: 15px;
+    width: 5rem;
+    font-weight: bold;
+    border: 2px solid #000000;
+    background: transparent;
+    padding: .8rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.home a {
+    text-decoration: none;
+    color: black;
+}
+
+.header-title h1 {
+    font-size:2rem;
+    padding: .5rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    background: rgb(175, 161, 115);
+    overflow-y: scroll;
+}
+
+section {
+    width: 100vw;
+    display: flex;
+    position: relative;
+    left: 49%;
+    top: 50px;
+}
+
+/* DESIGN 1 */
+
+.design-one {
+    width: 20dvw;
+    text-align:justify;
+    background-color: rgba(230, 230, 230, 0.432);
+    height: 180px;
+    border-radius: 5px;
+    position: relative;
+    top: 70px;
+}
+
+.design-one h1 {
+    position: relative;
+    left: 37%;
+    top: 10px;
+}
+
+.design-one p {
+    padding: 1.5rem;
+}
+
+/* DESIGN 1 WITH ANIMATION */
+
+.design-one-animation {
+    width: 20dvw;
+    text-align:justify;
+    background-color: rgba(230, 230, 230, 0.432);
+    height: 180px;
+    border-radius: 5px;
+    position: relative;
+    top: 70px;
+}
+
+.design-one-animation h1 {
+    position: relative;
+    left: 37%;
+    top: 10px;
+}
+
+.design-one-animation h1:hover {
+    background: red;
+    width: 125px;
+}
+
+.design-one-animation p {
+    padding: 1.5rem;
+}
+
+/* DESIGN 2 */
+
+.design-two {
+    width: 30dvw;
+    display: flex;
+    text-align:justify;
+    background-color: rgb(71, 71, 71);
+    height: 300px;
+    border-radius: 5px;
+    position: relative;
+    top: 70px;
+}
+
+.burger-pic {
+    width: 360px;
+    height: 300px;
+}
+
+.design-two h1 {
+    color: white;
+    position: relative;
+    left: 5%;
+    top: 30px;
+}
+
+.design-two h3 {
+    color: white;
+    position: relative;
+    top: 15%;
+    left: 5%;
+}
+
+.design-two p {
+    color: white;
+    position: relative;
+    padding: 4.5rem 1.3rem;
+}
+
+.three-dots {
+    padding: 1.4rem;
+    position: relative;
+    bottom: 20%;
+}
+
+/* DESIGN 2 WITH ANIMATION */
+
+.design-two-animation {
+    width: 30dvw;
+    display: flex;
+    text-align:justify;
+    background-color: rgb(71, 71, 71);
+    height: 300px;
+    border-radius: 5px;
+    position: relative;
+    top: 70px;
+}
+
+.burger-pic {
+    width: 360px;
+    height: 300px;
+}
+
+.design-two-animation h1 {
+    color: white;
+    position: relative;
+    left: 5%;
+    top: 30px;
+}
+
+.design-two-animation h3 {
+    color: white;
+    position: relative;
+    top: 15%;
+    left: 5%;
+}
+
+.design-two-animation p {
+    color: white;
+    position: relative;
+    padding: 4.5rem 1.3rem;
+}
+
+.three-dots {
+    padding: 1.4rem;
+    position: relative;
+    bottom: 20%;
+}
+
+h1.classic:hover, h1.classic:active {color: rgb(139, 65, 199);}
+p.instruction:hover, p.instruction:active {color: rgb(106, 98, 179);}
+
+/* DESIGN 3 */
+
+.design-three {
+    width: 15dvw;
+    display: block;
+    background-color: rgb(255, 255, 255);
+    height: 280px;
+    position: relative;
+    top: 70px;
+}
+
+.design-three h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    color: skyblue;
+    position: relative;
+    text-align: center;
+    top: 50px;
+}
+
+.design-three p {
+    color: rgba(0, 0, 0, 0.363);
+    position: relative;
+    text-align: center;
+    top: 30%;
+}
+
+.x {
+    left: 95%;
+    position: relative;
+    top: 4%;
+    color: skyblue;
+}
+
+.button-one {
+    background-color: skyblue;
+    border-radius: 25px;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    position: relative;
+    bottom: 80px;
+    left: 6%;
+}
+
+.button-two {
+    background-color: #ffffff;
+    border-radius: 25px;
+    border: 2px solid skyblue;
+    color: skyblue;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    position: relative;
+    top: 45%;
+    left: 6%;
+}
+
+/* DESIGN 3 WITH ANIMATION */
+
+.design-three-animation {
+    width: 15dvw;
+    display: block;
+    background-color: rgb(255, 255, 255);
+    height: 280px;
+    position: relative;
+    top: 70px;
+}
+
+.design-three-animation h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    color: skyblue;
+    position: relative;
+    text-align: center;
+    left: 30%;
+    top: 50px;
+}
+
+.design-three-animation p {
+    color: rgba(0, 0, 0, 0.363);
+    position: relative;
+    text-align: center;
+    top: 45%;
+    right: 18%;
+}
+
+.x {
+    left: 95%;
+    position: relative;
+    top: 4%;
+    color: skyblue;
+}
+
+.button-one {
+    background-color: skyblue;
+    border-radius: 25px;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    position: relative;
+    top: 45%;
+    left: 6%;
+}
+
+.button-two {
+    background-color: #ffffff;
+    border-radius: 25px;
+    border: 2px solid skyblue;
+    color: skyblue;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    position: relative;
+    top: 45%;
+    left: 6%;
+}
