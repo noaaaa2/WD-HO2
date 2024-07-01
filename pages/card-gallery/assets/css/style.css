@@ -7,7 +7,7 @@
 .home {
     position: relative;
     padding: 3px ;
-    right: 48%;
+    right: 47%;
     margin: 10px 5px;
     border-radius: 15px;
     width: 5rem;
@@ -54,7 +54,7 @@ section {
     width: 20dvw;
     text-align:justify;
     background-color: rgba(230, 230, 230, 0.432);
-    height: 180px;
+    height: 200px;
     border-radius: 5px;
     position: relative;
     top: 70px;
@@ -68,6 +68,7 @@ section {
 
 .design-one p {
     padding: 1.5rem;
+    font-size: 15px;
 }
 
 /* DESIGN 1 WITH ANIMATION */
@@ -76,7 +77,7 @@ section {
     width: 20dvw;
     text-align:justify;
     background-color: rgba(230, 230, 230, 0.432);
-    height: 180px;
+    height: 200px;
     border-radius: 5px;
     position: relative;
     top: 70px;
@@ -95,12 +96,13 @@ section {
 
 .design-one-animation p {
     padding: 1.5rem;
+    font-size: 15px;
 }
 
 /* DESIGN 2 */
 
 .design-two {
-    width: 30dvw;
+    width: 40dvw;
     display: flex;
     text-align:justify;
     background-color: rgb(71, 71, 71);
@@ -144,7 +146,7 @@ section {
 /* DESIGN 2 WITH ANIMATION */
 
 .design-two-animation {
-    width: 30dvw;
+    width: 40dvw;
     display: flex;
     text-align:justify;
     background-color: rgb(71, 71, 71);
@@ -191,7 +193,7 @@ p.instruction:hover, p.instruction:active {color: rgb(106, 98, 179);}
 /* DESIGN 3 */
 
 .design-three {
-    width: 15dvw;
+    width: 20dvw;
     display: block;
     background-color: rgb(255, 255, 255);
     height: 280px;
@@ -230,13 +232,12 @@ p.instruction:hover, p.instruction:active {color: rgb(106, 98, 179);}
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
+    display: flex;
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
     position: relative;
-    bottom: 80px;
-    left: 6%;
+    justify-content: center;
 }
 
 .button-two {
@@ -259,7 +260,7 @@ p.instruction:hover, p.instruction:active {color: rgb(106, 98, 179);}
 /* DESIGN 3 WITH ANIMATION */
 
 .design-three-animation {
-    width: 15dvw;
+    width: 20dvw;
     display: block;
     background-color: rgb(255, 255, 255);
     height: 280px;
@@ -274,7 +275,7 @@ p.instruction:hover, p.instruction:active {color: rgb(106, 98, 179);}
     position: relative;
     text-align: center;
     left: 30%;
-    top: 50px;
+    bottom: 20%;
 }
 
 .design-three-animation p {

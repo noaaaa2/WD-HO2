@@ -36,14 +36,14 @@ body {
     flex-direction: column;
     align-items: center;
     overflow: hidden;
-    background: beige;
+    background: beige; 
     overflow-y: scroll;
 }
 
 section {
     width: 100vw;
     display: flex;
-    padding: 1rem 4.4vw;
+    padding: 1rem 7.3vw;
     text-align: flex-end;
 }
 
@@ -124,7 +124,7 @@ header.design-two {
     left: 5px;
     height: 99%;
     top: 4px;
-    width: 95%;
+    width: 90%;
     justify-content: center;
     align-items: center;
     display: flex;
@@ -137,7 +137,7 @@ header.design-two {
     display: flex;
     align-items: center;
     bottom: 70%;
-    left: 45%;
+    left: 40%;
     color: white;
     font-weight: normal;
 }
@@ -150,7 +150,8 @@ header.design-two {
     align-items: center;
     text-align: justify;
     bottom: 65%;
-    left: 60%;
+    left: 53%;
+    font-size: 18px;
     color: white;
 }
 
@@ -285,7 +286,7 @@ header.design-four {
     position: relative;
     text-align: start;
     right: 21%;
-    top: 1%;
+    top: -4%;
 }
 
 .navigation a {
