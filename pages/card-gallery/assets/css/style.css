@@ -232,12 +232,12 @@ p.instruction:hover, p.instruction:active {color: rgb(106, 98, 179);}
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
-    display: flex;
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
     position: relative;
-    justify-content: center;
+    top: 40%;
+    left: 9%;
 }
 
 .button-two {
@@ -248,13 +248,12 @@ p.instruction:hover, p.instruction:active {color: rgb(106, 98, 179);}
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
     position: relative;
-    top: 45%;
-    left: 6%;
+    top: 40%;
+    left: 10%;
 }
 
 /* DESIGN 3 WITH ANIMATION */
@@ -274,16 +273,16 @@ p.instruction:hover, p.instruction:active {color: rgb(106, 98, 179);}
     color: skyblue;
     position: relative;
     text-align: center;
-    left: 30%;
-    bottom: 20%;
+    top: 50px;
 }
+
+h1.delete:hover, h1.delete:active {font-size: 200%;}
 
 .design-three-animation p {
     color: rgba(0, 0, 0, 0.363);
     position: relative;
     text-align: center;
-    top: 45%;
-    right: 18%;
+    top: 30%;
 }
 
 .x {
@@ -293,7 +292,7 @@ p.instruction:hover, p.instruction:active {color: rgb(106, 98, 179);}
     color: skyblue;
 }
 
-.button-one {
+.button-one-animation {
     background-color: skyblue;
     border-radius: 25px;
     border: none;
@@ -301,16 +300,15 @@ p.instruction:hover, p.instruction:active {color: rgb(106, 98, 179);}
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
     position: relative;
-    top: 45%;
-    left: 6%;
+    top: 40%;
+    left: 9%;
 }
 
-.button-two {
+.button-two-animation {
     background-color: #ffffff;
     border-radius: 25px;
     border: 2px solid skyblue;
@@ -318,11 +316,141 @@ p.instruction:hover, p.instruction:active {color: rgb(106, 98, 179);}
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
     position: relative;
-    top: 45%;
-    left: 6%;
+    top: 40%;
+    left: 10%;
+}
+
+/* DESIGN 4 */
+
+.design-four {
+    width: 35dvw;
+    display: block;
+    background: linear-gradient(black, white);
+    height: 420px;
+    border-radius: 25px;
+    position: relative;
+    top: 70px;
+}
+
+.design-four h1 {
+    position: relative;
+    text-align: center;
+    bottom: 3%;
+    letter-spacing: .2rem;
+}
+
+/* DESIGN 4 WITH ANIMATION */
+
+.design-four-animation {
+    width: 35dvw;
+    display: block;
+    background: linear-gradient(black, white);
+    height: 420px;
+    border-radius: 25px;
+    position: relative;
+    top: 70px;
+}
+
+.design-four-animation h1 {
+    position: relative;
+    text-align: center;
+    bottom: 3%;
+    letter-spacing: .2rem;
+}
+
+h1.g-wagon:hover, h1.g-wagon:active {font-family: Verdana;}
+
+/* DESIGN 5 */
+
+.design-five {
+    width: 18dvw;
+    display: block;
+    background-color: rgb(255, 255, 255);
+    height: 320px;
+    position: relative;
+    top: 70px;
+}
+
+.golden-egg-pic {
+    position: relative;
+    width: 35%;
+    left: 34%;
+    top: 7%;
+}
+
+.design-five h3 {
+    font-family: Arial;
+    position: relative;
+    top: 12%;
+    left: 17%;
+}
+
+.design-five p {
+    font-family: Arial;
+    position: relative;
+    top: 17%;
+    left: 17%;
+}
+
+button.got-it {
+    position: relative;
+    top: 26%;
+    left: 16%;
+    width: 70%;
+    height: 3rem;
+    background: rgb(27, 96, 175);
+    border: none;
+    color: white;
+}
+
+/* DESIGN 5 WITH ANIMATION */
+
+.design-five-animation {
+    width: 18dvw;
+    display: block;
+    background-color: rgb(255, 255, 255);
+    height: 320px;
+    position: relative;
+    top: 70px;
+}
+
+.golden-egg-pic {
+    position: relative;
+    width: 35%;
+    left: 34%;
+    top: 7%;
+}
+
+.design-five-animation h3 {
+    font-family: Arial;
+    position: relative;
+    top: 12%;
+    left: 17%;
+}
+
+.design-five-animation p {
+    font-family: Arial;
+    position: relative;
+    top: 17%;
+    left: 17%;
+}
+
+button.got-it-animation {
+    position: relative;
+    top: 26%;
+    left: 16%;
+    width: 70%;
+    height: 3rem;
+    background: rgb(27, 96, 175);
+    border: none;
+    color: white;
+}
+
+.got-it-animation:hover {
+    background-color: rgb(32, 126, 233) ;
+    color: black;
 }
